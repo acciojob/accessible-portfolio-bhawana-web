@@ -1,56 +1,52 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Accessible Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <!-- Header Section -->
-  <header role="heading" aria-level="1">
-    <img src="https://via.placeholder.com/150" alt="Your Photo" role="img">
-    <h1>Your Name</h1>
-    <p>Welcome to my portfolio! Here you can learn about my skills, projects, and more.</p>
-  </header>
+    <!-- Main Heading -->
+    <h1 role="heading">John Doe's Portfolio</h1>
 
-  <!-- Navigation Section -->
-  <nav role="navigation">
-    <ul role="list">
-      <li role="listitem"><a href="#skills">Skills</a></li>
-      <li role="listitem"><a href="#projects">Projects</a></li>
-      <li role="listitem"><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+    <!-- Navigation Bar -->
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-  <!-- Skills Section -->
-  <section id="skills">
-    <h2 role="heading" aria-level="2">Skills</h2>
-    <ul role="list">
-      <li role="listitem">HTML, CSS, JavaScript</li>
-      <li role="listitem">React, Node.js</li>
-      <li role="listitem">Python, Django</li>
-    </ul>
-  </section>
+    <!-- Image -->
+    <section id="about">
+        <img src="profile.jpg" alt="A portrait of John Doe" role="img">
+    </section>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2 role="heading" aria-level="2">Projects</h2>
-    <ul role="list">
-      <li role="listitem">Personal Portfolio Website</li>
-      <li role="listitem">Task Manager App using React</li>
-      <li role="listitem">E-commerce Website with Django</li>
-    </ul>
-  </section>
+    <!-- Brief Description -->
+    <section>
+        <p>Hello! I'm John Doe, a web developer passionate about creating accessible and user-friendly websites.</p>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2 role="heading" aria-level="2">Contact</h2>
-    <p>You can reach me via <a href="mailto:your-email@example.com">email</a>.</p>
-  </section>
+    <!-- Projects List -->
+    <section id="projects">
+        <h2 role="heading">Projects</h2>
+        <ul role="list">
+            <li role="listitem">Project 1: Accessible Portfolio Website</li>
+            <li role="listitem">Project 2: E-commerce Website</li>
+            <li role="listitem">Project 3: Blog Platform</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 role="heading">Contact Me</h2>
+        <p>You can reach me at <a href="mailto:johndoe@example.com">johndoe@example.com</a>.</p>
+    </section>
 
 </body>
 </html>
+
+
